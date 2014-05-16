@@ -1,0 +1,9 @@
+*.tgz
+*.7z
+*.zip
+/ch*
+integers
+dictionary
+temp
+.DS_Store
+phone_call*

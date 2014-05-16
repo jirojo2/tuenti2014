@@ -1,0 +1,8 @@
+#!/bin/bash
+
+Challenge="$1"
+Sources="src/${Challenge}.py"
+Output="${Challenge}-src.tgz"
+
+tar czf $Output $Sources
+exit 0

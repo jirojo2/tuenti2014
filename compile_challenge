@@ -1,0 +1,11 @@
+#!/bin/bash
+
+Challenge="$1"
+CC="g++"
+CFLAGS="-std=c++11 -O2 -Wall"
+Include="src/"
+Sources="src/${Challenge}.cc"
+Output="$Challenge"
+
+$CC $CFLAGS -I $Include $Sources -o $Output
+ 

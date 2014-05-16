@@ -1,0 +1,9 @@
+#!/bin/bash
+
+Challenge="$1"
+Sources="src/${Challenge}.cc"
+Includes="src"
+Output="${Challenge}-src.tgz"
+
+tar czf $Output $Sources ${Includes}/*.h
+exit 0

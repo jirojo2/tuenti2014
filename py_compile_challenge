@@ -1,0 +1,5 @@
+#!/bin/bash
+
+Challenge="$1"
+cp src/${Challenge}.py $Challenge 
+chmod +x $Challenge
